@@ -88,7 +88,7 @@
     "commit": "git-cz",
     "cover": "istanbul cover test/index.js",
     "lint": "eslint bin/ test/ lib/",
-    "test": "npm run lint && node test | tap-spec",
+    "test": "node test | tap-spec",
     "posttest": "rimraf .tmp"
   },
   "config": {
